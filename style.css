@@ -1,0 +1,27 @@
+ .main{
+    width: 500px;
+    margin: 20px;
+    height: 500px;
+    border: 2px solid black;
+ }
+ .player{   
+    left: 15;
+    top: 15;
+    width: 50px;
+    position: absolute;
+    height: 50px;
+    background-position: center;
+    background-image: url(Images/snake.png);
+    background-color: transparent;
+ } 
+ .throbble {
+     display: none
+ }
+ .apple {
+     width: 50px;
+    position: absolute; 
+     height: 50px; 
+    background-position: center;
+     background-image: url(Images/apple.png);
+    background-color: transparent; 
+ }
